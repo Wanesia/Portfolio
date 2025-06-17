@@ -16,7 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${sometypeMono.variable} antialiased`}>
-        <MainNav className=''></MainNav>
+        <div>
+          <MainNav />
+        </div>
         <div>{children}</div>
       </body>
     </html>
