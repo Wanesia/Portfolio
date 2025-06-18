@@ -15,8 +15,7 @@
   --color-secondary: #095ded;
   --color-accent: #11ba35;
   --color-accent-hover: #0fa82f;
-  --color-tertiary: #a708c7;
-  --color-tertiary-hover: #8a0ba3;
+  --color-tertiary: #1e1e2e;
 
   /* fonts */
   --font-primary: "Sometype Mono";
@@ -63,10 +62,6 @@ h4 {
 /* btns colors */
 .btn-accent {
   @apply bg-accent hover:bg-accent-hover;
-}
-
-.btn-tertiary {
-  @apply bg-tertiary hover:bg-tertiary-hover;
 }
 
 .btn-white {
