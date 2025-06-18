@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth scroll-pt-[5rem]">
       <body className={`${sometypeMono.variable} antialiased`}>
         <div>
           <MainNav />

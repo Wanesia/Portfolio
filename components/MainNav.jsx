@@ -32,8 +32,8 @@ const itemVariants = {
 
 const MainNav = () => {
   return (
-    <motion.div 
-      className='h-20 items-center flex justify-between'
+    <motion.nav 
+      className='h-20 items-center flex justify-between fixed bg-primary/80 backdrop-blur-[2px] w-full z-50 top-0'
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -45,7 +45,7 @@ const MainNav = () => {
       <motion.div variants={itemVariants}>
         <NavLinks />
       </motion.div>
-    </motion.div>
+    </motion.nav>
   );
 };
 

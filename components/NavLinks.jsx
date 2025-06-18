@@ -4,22 +4,22 @@ import React from "react";
 const links = [
   {
     name: "HOME",
-    path: "/",
+    path: "#home",
   },
 
   {
     name: "ABOUT",
-    path: "/about",
+    path: "#about",
   },
 
   {
     name: "PROJECTS",
-    path: "/projects",
+    path: "#projects",
   },
 
   {
     name: "CONTACT",
-    path: "/contact",
+    path: "#contact",
   },
 ];
 
