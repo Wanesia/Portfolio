@@ -14,7 +14,7 @@ const AboutSection = () => {
           <br />I am currently enrolled in a Top-up Bachelor's degree program in
           Web Development at Copenhagen Business Academy.
           <br />I enjoy applying my knowledge to real-world projects and
-          continuously seek opportunities to grow as a developer
+          continuously seek opportunities to grow as a developer.
         </p>
       </div>
       <div className="pt-10 md:pt-0 md:pr-20">
