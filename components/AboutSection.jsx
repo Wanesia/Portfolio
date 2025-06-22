@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <div
       id="about"
-      className="flex flex-col xl:flex-row items-start justify-between w-full px-10"
+      className="flex flex-col xl:flex-row items-start justify-around w-full px-10"
     >
       <div className="">
         <h2 className="">About Me</h2>
