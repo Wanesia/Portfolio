@@ -8,9 +8,9 @@ import { BiLogoMongodb, BiLogoPostgresql } from "react-icons/bi";
 
 const ProjectsSection = () => {
   return (
-    <div id="projects" className="min-h-screen px-10">
-      <h2 className="py-5">My Projects</h2>
-      <div className="flex flex-col md:flex-row justify-around">
+    <div id="projects" className="mt-10">
+      <h2 className="py-5 text-center xl:text-left">My Projects</h2>
+      <div className="flex flex-col items-center lg:flex-row justify-between">
         <ProjectCard
           title="DAO"
           description="DAO is a modern full stack web application designed for musicians. With just a few clicks, you can create a profile that reflects your personality and interests."

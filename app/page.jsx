@@ -5,12 +5,14 @@ import ProjectsSection from "@/components/ProjectsSection";
 import ContactSection from "@/components/ContactSection";
 const Home = () => {
   return (
-    <div className="">
+    <>
       <HeroSection />
-      <AboutSection />
-      <ProjectsSection />
-      <ContactSection />
-    </div>
+      <div className="container">
+        <AboutSection />
+        <ProjectsSection />
+        <ContactSection />
+      </div>
+    </>
   );
 };
 

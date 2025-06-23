@@ -4,20 +4,20 @@ const AboutSection = () => {
   return (
     <div
       id="about"
-      className="flex flex-col xl:flex-row items-start justify-around w-full px-10"
+      className="flex flex-col xl:flex-row items-center justify-between w-full"
     >
-      <div className="">
+      <div className="text-center xl:text-left">
         <h2 className="">About Me</h2>
-        <p className="mt-5 md:w-[400px] lg:w-[700px]">
+        <p className="mt-5 lg:w-[700px]">
           Creative and ambitious Computer Science graduate with an open-minded
           approach to problem-solving and other areas of life.
-          <br />I am currently enrolled in a Top-up Bachelor's degree program in
+          I am currently enrolled in a Top-up Bachelor's degree program in
           Web Development at Copenhagen Business Academy.
-          <br />I enjoy applying my knowledge to real-world projects and
+          I enjoy applying my knowledge to real-world projects and
           continuously seek opportunities to grow as a developer.
         </p>
       </div>
-      <div className="pt-10 md:pt-0 md:pr-20">
+      <div className="pt-10 xl:pt-0 md:pr-20">
         <ul>
           <li className="relative flex gap-6 pb-5">
             <div className="before:absolute before:left-[7px] before:h-full before:w-[1px] before:bg-secondary">

@@ -19,7 +19,7 @@ const HeroSection = () => {
       className="h-[100vh] flex items-center relative overflow-hidden"
     >
       <Pattern></Pattern>
-      <div className="flex flex-col xl:flex-row items-center justify-around w-full">
+      <div className="container flex flex-col xl:flex-row items-center justify-between w-full">
         <div className="w-full xl:w-[550px] flex flex-col items-center xl:items-start text-center xl:text-left">
           <h3>Hi! My name is</h3>
           <motion.h1
