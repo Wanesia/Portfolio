@@ -77,7 +77,7 @@ const MainNav = () => {
         transition={{ type: "spring", damping: 20, stiffness: 100 }}
         className="fixed top-0 left-0 w-full bg-primary p-5 z-40 sm:!hidden border-b-1"
       >
-        <NavLinks />
+        <NavLinks onLinkClick={() => setIsOpen(false)} />
       </motion.div>
     </motion.nav>
   );

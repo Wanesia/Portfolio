@@ -23,8 +23,7 @@ const links = [
   },
 ];
 
-
-const NavLinks = () => {
+const NavLinks = ({ onLinkClick }) => {
   return (
     <div>
       <ul className="flex flex-col sm:flex-row sm:px-6">
@@ -33,6 +32,7 @@ const NavLinks = () => {
             <Link
               className="block px-6 py-2 hover:text-accent transition-colors"
               href={link.path}
+              onClick={onLinkClick}
             >
               {link.name}
             </Link>
