@@ -2,8 +2,8 @@ import React from "react";
 
 const ProjectCard = ({ title, description, image, technologies = [] }) => {
   return (
-    <div className="bg-tertiary mt-5 white rounded-lg overflow-hidden max-w-xs">
-      <div className="w-full h-60 overflow-hidden">
+    <div className="bg-tertiary mt-5 white rounded-lg overflow-hidden max-w-xs xl:max-w-[300px] 2xl:max-w-sm">
+      <div className="w-full h-50 xl:h-60 overflow-hidden">
         <img
           src={image}
           alt={`${title} preview`}
